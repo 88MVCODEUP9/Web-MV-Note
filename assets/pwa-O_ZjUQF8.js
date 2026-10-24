@@ -1,0 +1,1 @@
+`serviceWorker`in navigator&&location.protocol.startsWith(`http`)&&navigator.serviceWorker.register(`/sw.js`,{scope:`/`}).catch(e=>{console.error(`Service worker registration failed`,e)});
